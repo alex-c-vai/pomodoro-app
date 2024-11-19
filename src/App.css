@@ -7,6 +7,12 @@
   pointer-events: none;
 }
 
+.App-img {
+  max-width: 100vw; /* Scale down to fit viewport width */
+  max-height: 100vh; /* Scale down to fit viewport height */
+  object-fit: contain; /* Maintain proportions within the given dimensions */
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
